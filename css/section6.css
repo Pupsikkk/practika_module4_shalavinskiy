@@ -1,0 +1,180 @@
+.section6 {
+  margin: 5vw 0 0 0;
+}
+
+.section6 h2 {
+  margin: 0;
+  margin-left: 10vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.5vw;
+}
+
+.section6 > p {
+  margin-left: 10vw;
+  max-width: 700px;
+  margin-right: 15vw;
+}
+
+.bottom-border2 {
+  margin-left: 10vw;
+  width: 130px;
+  height: 30px;
+  border-bottom: #ff2d2d 3px solid;
+}
+
+.section6-part2 {
+  margin-top: 4vw;
+  display: flex;
+}
+
+.input-inf {
+  width: 50vw;
+  margin-right: 5vw;
+  margin-left: 10vw;
+}
+
+.for-paragraph p {
+  margin: 1.5vw 0 1.5vw 3vw;
+  color: #8e8e8e;
+}
+
+.input-inf-part1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-inf-part1 > input {
+  width: 45%;
+  background-color: #f3f3f3;
+  border: #f3f3f3 4px solid;
+  border-radius: 7px;
+  padding: 2vw;
+  font-size: 16px;
+  color: #8e8e8e;
+}
+
+.something-beetween{
+  width:10%;
+}
+
+.input-inf-part2 {
+  margin-top: 3vw;
+  width: 90%;
+  height: 16vw;
+  background-color: #f3f3f3;
+  border: #f3f3f3 4px solid;
+  border-radius: 7px;
+  padding: 2vw;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.input-inf-button {
+  margin-top: 3vw;
+  width: 100%;
+  height: 4vw;
+  min-height: 30px;
+  background-color: #ff2d2d;
+  border: #ff2d2d 4px solid;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f3f3f3;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contact-inf {
+  width: 35vw;
+  padding: 4vw;
+  background-color: #313030;
+}
+
+.contact-inf h3 {
+  color: #f6f2f2;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.contact-inf p {
+  color: #f6f2f2;
+  font-style: italic;
+}
+
+.wide-version {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .section6 > h2 {
+    font-size: 6vw;
+  }
+
+  .section6 > p {
+    margin-right: 10vw;
+  }
+
+  .section6-part2 {
+    flex-direction: column;
+  }
+
+  .input-inf {
+    align-self: center;
+    margin: 0;
+    width: 90%;
+  }
+
+  .input-inf-part1>input{
+    width: 90%;
+  }
+
+  .input-inf-button {
+    width: 100%;
+    margin-bottom: 10vw;
+  }
+
+  .contact-inf {
+    display: none;
+  }
+
+  .wide-version {
+    display: block;
+    width: 100%;
+    padding: 5vw 0;
+  }
+
+  .wide-version h3 {
+    margin-left: 10px;
+  }
+
+  .wide-version p {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section6 > h2 {
+    font-size: 10vw;
+  }
+
+  .input-inf-part1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-inf-part1 > div {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .input-inf-part2 {
+    height: 32vw;
+  }
+}
