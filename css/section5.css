@@ -78,6 +78,7 @@
 @media (max-width: 720px) {
   .section5 > p {
     margin: 4vw 0;
+    margin-left: 10px;
   }
 
   .section5-form {
